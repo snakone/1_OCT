@@ -1,0 +1,41 @@
+canvas {
+	margin: 0 auto;
+	border-radius: 5px;
+	margin-top:8%;
+	border: 2px solid yellow;
+}
+
+body {
+	background-image: url(../images/cops.jpg);
+	background-size: 100% 160%;
+	background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: title;
+    src: url(The_Juke_Box-FFP.ttf);
+}
+
+.title {
+	font-family: title;
+	color:white;
+	position:absolute;
+	margin-left: auto;
+	margin-right:auto;
+	font-size: 9em;
+	text-shadow: 1px 2px 2px black;
+	left:36%;
+	bottom: 75px;
+}
+
+.copLeft {
+	margin: 0 50px;
+	float: left;
+	margin-top:43%;
+}
+
+.runner {
+	margin: 0 50px;
+	float: right;
+	margin-top:43%;
+}
